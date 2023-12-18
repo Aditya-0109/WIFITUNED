@@ -2,9 +2,11 @@
 
 The objective of our project is to take the channel state information of the wifi and audio of speaker as input and give the net engagement score of all participations as output
 We were particularly impressed by a paper titled 'Utilizing deep learning models in CSI-based human activity recognition (Shalaby et al)'(https://link.springer.com/article/10.1007/s00521-021-06787-w#:~:text=Four%20deep%20learning%20models%20are,LSTM)%20and%20a%20second%20CNN.). 
+
 This paper presents four advanced models - a Convolution Neural Network (CNN) with a Gated Recurrent Unit (GRU); a CNN with a GRU and attention, a CNN with a GRU and a second CNN, and a CNN with Long Short-Term Memory (LSTM) and a second CNN. According to the paper, the proposed models achieved the highest average recognition accuracy, with the CNN-GRU and CNN-GRU with attention models reaching 99.31% and 99.16%, respectively.
 
 The dataset used in the paper was from 'A survey on behavior recognition using WiFi channel state information (Yousefi et. al)' (https://github.com/ermongroup/Wifi_Activity_Recognition), which has been referenced in numerous other papers in this field. After reading this paper, we attempted to implement the CNN-GRU model proposed and train it on the given dataset. We have attached our implementation of this project for your perusal. Some of the key details of our implementation were - 
+
 1. We trained our model to identify Fall, Pickup, Run, Bed, Sitdown, Standup and Walk activities as present in the dataset
 2. We trained a CNN + GRU Model as detailed in Shalaby et al. with certain changes to accommodate our data
 3. We trained our model for 10 epochs with a batch size of 64
