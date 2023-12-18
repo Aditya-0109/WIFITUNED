@@ -1,4 +1,4 @@
-## WiFiTuned: Monitoring Engagement in Online Participation by Harmonizing WiFi and Audio
+**WiFiTuned: Monitoring Engagement in Online Participation by Harmonizing WiFi and Audio**
 
 The objective of our project is to take the channel state information of the wifi and audio of speaker as input and give the net engagement score of all participations as output
 We were particularly impressed by a paper titled 'Utilizing deep learning models in CSI-based human activity recognition (Shalaby et al)'(https://link.springer.com/article/10.1007/s00521-021-06787-w#:~:text=Four%20deep%20learning%20models%20are,LSTM)%20and%20a%20second%20CNN.). 
